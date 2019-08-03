@@ -21,7 +21,7 @@ countGuessesLeft();
 var restart = function() {
 	guessesLeft = 9;
 	letterUser = [];
-	var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+	computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
 }
 
 document.onkeyup = function(event) {
